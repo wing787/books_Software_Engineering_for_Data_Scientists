@@ -1,0 +1,64 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+env/
+venv/
+ENV/
+pip-wheel-metadata/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+# IDE files
+.vscode/
+.idea/
+# macOS files
+.DS_Store
+# Logs and databases
+*.log
+*.sqlite3
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+# pytest
+.pytest_cache/
+# mypy
+.mypy_cache/
+.dmypy.json
+# Pyre type checker
+.pyre/
+# Celery beat schedule file
+celerybeat-schedule
+# Sphinx documentation build
+docs/_build/
+# Temporary files
+*.tmp
+*.bak
+*.swp
+# Environment variable files
+.env
+.venv/local/bin/activate
+.envrc
+# Docker files
+docker-compose.override.yml
+# Miscellaneous
+*.pid
+*.seed
+*.backup
+
+# Data files（リポジトリ以下のdataフォルダすべて）
+data/
+output/
+source_data/
+input_data/
+book_codes/
