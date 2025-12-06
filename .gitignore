@@ -12,6 +12,7 @@ env/
 venv/
 ENV/
 pip-wheel-metadata/
+.virtual_documents/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 # IDE files
@@ -49,13 +50,15 @@ docs/_build/
 .env
 .venv/local/bin/activate
 .envrc
+.jupyter/
 # Docker files
 docker-compose.override.yml
 # Miscellaneous
 *.pid
 *.seed
 *.backup
-
+*.html
+*.bin
 # Data files（リポジトリ以下のdataフォルダすべて）
 data/
 output/
