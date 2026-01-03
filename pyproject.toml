@@ -6,10 +6,12 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "black>=25.11.0",
-    "dask>=2025.11.0",
+    "dask[distributed]>=2025.11.0",
     "faker>=38.2.0",
     "fastapi>=0.123.5",
+    "geopandas>=1.1.1",
     "ipykernel>=7.1.0",
+    "ipywidgets>=8.1.8",
     "jupyterlab>=4.5.0",
     "jupyterlab-code-formatter>=3.0.2",
     "line-profiler>=5.0.0",
