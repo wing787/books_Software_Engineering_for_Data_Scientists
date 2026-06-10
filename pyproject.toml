@@ -30,4 +30,5 @@ dependencies = [
     "snakeviz>=2.2.2",
     "tensorflow>=2.20.0",
     "torch>=2.9.1",
+    "uvicorn[standard]>=0.49.0",
 ]
